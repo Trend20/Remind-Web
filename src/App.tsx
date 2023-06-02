@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import Home from './components/Home';
+import Navbar from './components/shared/Navbar';
 
 function App() {
   return (
     <div className="app">
-      <h3>Remind App</h3>
+      <Navbar />
+      <Home />
     </div>
   );
 }
